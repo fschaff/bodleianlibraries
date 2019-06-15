@@ -26,18 +26,18 @@ To use a browser other than the default on your computer use `options(browser = 
 You can install bodleianlibraries from GitHub:
 ```{r gh-installation, eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("fschaff/bodleianlibraries")
+remotes::install_github("fschaffner/bodleianlibraries")
 ```
 
-Please report issues or requests for additional functionality to https://github.com/fschaff/bodleianlibraries/issues.
+Please report issues or requests for additional functionality to https://github.com/fschaffner/bodleianlibraries/issues.
 
 ## Example
 
 ```{r example}
 library(bodleianlibraries)
 
-# Try:
-
 bodleian("a book that I am looking for")
+
+solo("another book that I am looking for")
 
 ```
