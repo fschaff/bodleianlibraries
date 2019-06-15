@@ -39,11 +39,6 @@ Please report issues or requests for additional functionality to
 
 ``` r
 library(bodleianlibraries)
-#> 
-#> Attaching package: 'bodleianlibraries'
-#> The following object is masked from 'package:fschaffner':
-#> 
-#>     solo
 
 bodleian("a book that I am looking for")
 
